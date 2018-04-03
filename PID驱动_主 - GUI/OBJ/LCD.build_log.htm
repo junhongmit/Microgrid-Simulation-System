@@ -1,0 +1,53 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.14.0.0
+Copyright (C) 2015 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Lin Junhong, C, LIC=RC9PC-7ZK41-7R3X3-ADKCB-TD5AE-MTKHU
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Standard  Version: 5.14.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.05 update 1 (build 106)
+Assembler:       Armasm.exe V5.05 update 1 (build 106)
+Linker/Locator:  ArmLink.exe V5.05 update 1 (build 106)
+Library Manager: ArmAr.exe V5.05 update 1 (build 106)
+Hex Converter:   FromElf.exe V5.05 update 1 (build 106)
+CPU DLL:         SARMCM3.DLL V5.14.0.0
+Dialog DLL:      DCM.DLL V1.13.1.0
+Target DLL:      Segger\JL2CM3.dll V2.99.13.0
+Dialog DLL:      TCM.DLL V1.14.4.0
+ 
+<h2>Project:</h2>
+D:\电力电子培训\微电网模拟系统\PID驱动_主 - GUI\USER\SPWM.uvprojx
+Project File Date:  08/12/2017
+
+<h2>Output:</h2>
+Build target 'SPWM'
+compiling timer.c...
+..\HARDWARE\TIMER\timer.c(110): warning:  #177-D: variable "nowpwm" was declared but never referenced
+        u16 nowpwm;
+..\HARDWARE\TIMER\timer.c(172): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+                                panel1->data[data_timer][0]=VoltageAB*1.5;
+..\HARDWARE\TIMER\timer.c(173): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+                                panel1->data[data_timer][1]=VoltageBC*1.5;
+..\HARDWARE\TIMER\timer.c(174): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+                                panel1->data[data_timer][2]=VoltageCA*1.5;
+..\HARDWARE\TIMER\timer.c(155): warning:  #177-D: variable "adc" was declared but never referenced
+        u16 adc;
+..\HARDWARE\TIMER\timer.c: 5 warnings, 0 errors
+linking...
+Program Size: Code=58018 RO-data=12582 RW-data=620 ZI-data=17804  
+FromELF: creating hex file...
+"..\OBJ\LCD.axf" - 0 Error(s), 5 Warning(s).
+
+<h2>Collection of Component include folders:</h2>
+  D:\电力电子培训\微电网模拟系统\PID驱动_主 - GUI\USER\RTE
+  C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.8.0
+
+<h2>Collection of Component Files used:</h2>
+</pre>
+</body>
+</html>
